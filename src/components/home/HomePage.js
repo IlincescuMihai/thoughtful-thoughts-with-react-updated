@@ -12,7 +12,7 @@ class HomePage extends React.Component {
             Create <Link to="">an account </Link>
           </li>
           <li>
-            Add an <Link to="courses">thoughtful thought</Link>
+            Add an <Link to="thought">thoughtful thought</Link>
           </li>
         </ol>
       </div>

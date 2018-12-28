@@ -15,7 +15,7 @@ const CourseList = ({ courses }) => (
       {courses.map(course => (
         <tr key={course.id}>
           <td>
-            <Link to={"/course/" + course.id}>{course.title}</Link>
+            <Link to={"/thought/" + course.id}>{course.title}</Link>
           </td>
           <td>{course.category}</td>
           <td>{course.day}</td>

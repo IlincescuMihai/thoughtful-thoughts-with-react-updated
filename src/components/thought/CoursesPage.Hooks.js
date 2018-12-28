@@ -15,7 +15,7 @@ function CoursesPage({ courses, actions }) {
 
   return (
     <div>
-      {redirectToAddCoursePage && <Redirect to="/course" />}
+      {redirectToAddCoursePage && <Redirect to="/thought" />}
       <h2>Thoughtful thoughts</h2>
 
       <button

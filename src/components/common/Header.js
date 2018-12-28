@@ -10,7 +10,7 @@ const Header = ({ numCourses }) => {
         Home
       </NavLink>
       {" | "}
-      <NavLink to="/courses" activeStyle={activeStyle}>
+      <NavLink to="/thoughts" activeStyle={activeStyle}>
         Thoughtful thoughts {numCourses > 0 && `(${numCourses})`}
       </NavLink>
       {" | "}

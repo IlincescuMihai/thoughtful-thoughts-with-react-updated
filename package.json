@@ -1,7 +1,7 @@
 {
   "name": "ps-redux",
   "version": "1.0.0",
-  "description": "Starter kit for React and Redux Pluralsight course by Cory House",
+  "description": "Thoughtful thoughts by Ilincescu Mihai",
   "scripts": {
     "start": "run-p start:dev lint:watch",
     "start:dev": "webpack-dev-server --config webpack.config.dev.js",
@@ -14,7 +14,7 @@
     "build": "webpack --config webpack.config.prod.js",
     "postbuild": "node tools/distServer.js"
   },
-  "author": "Cory House",
+  "author": "Ilincescu Mihai",
   "engines": {
     "node": ">=8"
   },
@@ -67,7 +67,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/coryhouse/pluralsight-redux-starter"
+    "url": "https://github.com/IlincescuMihai/thoughtful-thoughts-with-react-updated"
   },
   "eslintConfig": {
     "parser": "babel-eslint",

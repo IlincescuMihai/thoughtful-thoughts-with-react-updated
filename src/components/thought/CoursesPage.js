@@ -19,7 +19,7 @@ class ThoughtPage extends React.Component {
   render() {
     return (
       <div>
-        {this.state.redirectToAddCoursePage && <Redirect to="/course" />}
+        {this.state.redirectToAddCoursePage && <Redirect to="/thought" />}
         {this.props.loading ? (
           <Spinner />
         ) : (

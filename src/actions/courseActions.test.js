@@ -9,11 +9,11 @@ import configureMockStore from "redux-mock-store";
 // Test a sync action
 describe("Course Actions", () => {
   describe("createCourseSuccess", () => {
-    it("should create a CREATE_COURSE_SUCCESS action", () => {
+    it("should create a CREATE_THOUGHTS_SUCCESS action", () => {
       //arrange
       const course = { id: "clean-code", title: "Clean Code" };
       const expectedAction = {
-        type: types.CREATE_COURSE_SUCCESS,
+        type: types.CREATE_THOUGHTS_SUCCESS,
         course: course
       };
 
@@ -53,7 +53,7 @@ describe("Async Actions", () => {
       store.dispatch(courseActions.loadCourses()).then(() => {
         const actions = store.getActions();
         expect(actions[0].type).toEqual(types.BEGIN_AJAX_CALL);
-        expect(actions[1].type).toEqual(types.LOAD_COURSES_SUCCESS);
+        expect(actions[1].type).toEqual(types.LOAD_THOUGHTS_SUCCESS);
         done();
       });
     });
